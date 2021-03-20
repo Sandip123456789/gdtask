@@ -17,9 +17,11 @@ const Result = () => {
     return (
         <div>
             <div className="result">
-                <h1>SKU:</h1>
+                <h1 className="space2">SKU:</h1>
                 <p>{material?material:'Leather'}</p>
+                <p><b>-</b></p>
                 <p>{size?size:'S'}</p>
+                <p><b>-</b></p>
                 <p>{color?color:'Red'}</p>
             </div>
         </div>

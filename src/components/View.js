@@ -21,7 +21,7 @@ const View = () => {
                 })}>Denim</button>
             </div>
             <div className="size">
-                <h1>Size:</h1>
+                <h1 className="space">Size:</h1>
                 <button className="button2" onClick={() => history.push({
                     size:'S'
                 })}>S</button>
@@ -36,7 +36,7 @@ const View = () => {
                 })}>XL</button>
             </div>
             <div className="color">
-                <h1>Colors:</h1>
+                <h1 className="space1">Colors:</h1>
                 <p onClick={() => history.push({
                     color:'Red'
                 })}>Red</p>

@@ -35,3 +35,15 @@ p {
 .result {
   display: flex;
 }
+
+.space {
+  padding-right: 80px;
+}
+
+.space1 {
+  padding-right: 35px;
+}
+
+.space2 {
+  padding-right: 70px;
+}
